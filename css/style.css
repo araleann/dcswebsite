@@ -1,0 +1,135 @@
+body {
+	padding-top: 80px;
+	background: #eee;
+}
+
+/* BRAND */
+
+div.deptOf{
+	position: relative;
+	right: -17px;
+	font-size: 16px;
+}
+div.cs{
+	position: relative;
+	top: -7px;
+	font-family: Elephant, Arial Black, serif;
+	font-size: 22px;
+}
+
+.navbar .nav > li > a {
+	font-size: 15px;
+	text-transform: uppercase;
+	line-height: 40px;
+	padding: 10px;
+}
+
+/*.affix {
+    top: 10px;
+}*/
+
+/* Sidebar */
+
+.content {
+  background-color: #fff;
+  /*font-size: 10px;*/
+}
+
+#sidebar .nav li a {
+	/*color: #838282;*/
+	position: relative;
+}
+
+#sidebar .nav-list {
+width: 228px;
+margin: 30px 0 0;
+padding: 0;
+background-color: #fff;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+-moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+box-shadow: 0 1px 4px rgba(0,0,0,.065);
+}
+
+#sidebar .nav-list > .active > a, #sidebar .nav-list > .active > a:hover, #sidebar .nav-list > .active > a:focus {
+/*color: #ffffff;*/
+text-shadow: 0 -1px 0 
+rgba(0, 0, 0, 0.2);
+background-color: #e89999;
+}
+
+#sidebar .nav li.active a {
+	color: #8b1f1f;
+	background-color: transparent;
+	font-weight:bold;
+}
+#sidebar .nav li a:hover {
+}
+
+.active a {background-color:6e5baa;}
+
+.navbar .nav.active a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	/*background: transparent;*/
+	/*color: #8b1f1f;*/
+}
+
+/*6e5baa - bootstrap purple*/
+/*e89999 - light red*/
+
+.row{margin-bottom:6em}
+.row:after{content:"";display:table;clear:both}
+.row .main{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:block;float:left;margin-right:3.01887%;margin-bottom:3.01887%;width:48.49057%;vertical-align:top}
+.row .main:last-child{margin-bottom:0}
+.row figure{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:block;float:left;margin-right:3.01887%;margin-bottom:3.01887%;width:48.49057%;vertical-align:top}
+.row figure:last-child{margin-bottom:0}
+.row>:last-child{float:right;margin-right:0}
+
+div
+{
+text-align:justify;
+text-justify:inter-word;
+}
+
+/* FOOTER */
+
+footer{
+	background-color: #8b1f1f;
+	color: #faf7eb;
+}
+
+footer h4 {
+	text-transform: uppercase;
+	margin-bottom: -15px;
+}
+
+footer hr {
+	margin-bottom: -0.5px;
+}
+
+.center{
+	text-align: center;
+}
+
+.copyright{
+	font-size: 10px;
+}
+
+html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+
+body{color:#4c4c4c;font-family:"BentonSans", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;line-height:1.4em}
+footer a:link, footer a:visited{
+	color:#fff;
+	margin-left: 10px;
+}
+
+footer a:hover, footer a:active{
+	color:#fff;
+}
+
+@font-face{font-family:BentonSans;font-weight:200;font-style:normal;src:url(//d4yt8xl9b7in.cloudfront.net/assets/bentonsans-book-6fb6dbc2a6c6a1478e6aba68b6dc2b2c.eot);src:url(//d4yt8xl9b7in.cloudfront.net/assets/bentonsans-book.eot?#iefix) format("embedded-opentype"),url(//d4yt8xl9b7in.cloudfront.net/assets/bentonsans-book-520df8a5f03b6a45cbf79f2c7e40ebc2.woff) format("woff"),url(//d4yt8xl9b7in.cloudfront.net/assets/bentonsans-book-56b25024a8bbb6b58061d0e2c63230f1.ttf) format("truetype"),url(//d4yt8xl9b7in.cloudfront.net/assets/bentonsans-book.svg#BentonSans) format("svg")}
+@font-face{font-family:BentonSans;font-weight:normal;font-style:normal;src:url(//d4yt8xl9b7in.cloudfront.net/assets/bentonsans-regular-13c15d60ddabd9d28d3e5c2d51b97d13.eot);src:url(//d4yt8xl9b7in.cloudfront.net/assets/bentonsans-regular.eot?#iefix) format("embedded-opentype"),url(//d4yt8xl9b7in.cloudfront.net/assets/bentonsans-regular-f94699eab9db9172ba064c99fec1aef0.woff) format("woff"),url(//d4yt8xl9b7in.cloudfront.net/assets/bentonsans-regular-dc47564d53b347534f673b412fb0a061.ttf) format("truetype"),url(//d4yt8xl9b7in.cloudfront.net/assets/bentonsans-regular.svg#BentonSans) format("svg")}
+@font-face{font-family:BentonSans;font-weight:bold;font-style:normal;src:url(//d4yt8xl9b7in.cloudfront.net/assets/bentonsans-medium-b3d58500f626d7863d22cb84b0b32e8c.eot);src:url(//d4yt8xl9b7in.cloudfront.net/assets/bentonsans-medium.eot?#iefix) format("embedded-opentype"),url(//d4yt8xl9b7in.cloudfront.net/assets/bentonsans-medium-09c1eb88ad32a9ad8aa37b19d83587a9.woff) format("woff"),url(//d4yt8xl9b7in.cloudfront.net/assets/bentonsans-medium-c6c941bab568552877aa49862cbbb08b.ttf) format("truetype"),url(//d4yt8xl9b7in.cloudfront.net/assets/bentonsans-medium.svg#BentonSans) format("svg")}
