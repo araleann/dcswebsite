@@ -1,0 +1,10 @@
+DCS website.
+
+To fix:
+
+Landing page
+"Contact us" sidebar
+headers - should have rounded corners
+research labs - must be organized
+
+Used an older version of Bootstrap.

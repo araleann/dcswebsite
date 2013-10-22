@@ -1,0 +1,69 @@
+@font-face{
+	src: local('Microsoft Tai Le'), url('../fonts/taile.ttf'), url('../fonts/taile.eot');
+	font-family: Tai Le;
+}
+@font-face{
+	src: local('Elephant'), url('../fonts/ELEPHNT.ttf'), url('../fonts/ELEPHNT.eot');
+	font-family: Elephant;
+}
+@font-face{
+	src: local('Franklin Gothic Book'), url('../fonts/FRABK.ttf'), url('../fonts/FRABK.eot');
+	font-family: Franklin;
+}
+@font-face{
+	src: local('Franklin Gothic Medium'), url('../fonts/FRADM.ttf'), url('../fonts/FRADM.eot');
+	font-family: FranklinM;
+}
+@font-face{
+	src: local('Modern No. 20'), url('../fonts/MOD20.ttf'), url('../fonts/MOD20.eot');
+	font-family: Modern;
+}
+@font-face{
+	src: local('Bell Gothic Std'), url('../fonts/BellGothicStd-Bold.otf'), url('../fonts/BellGothicStd-Bold.eot');
+	font-family: Bell;
+}
+@font-face{
+	src: local('Franklin Gothic Heavy'), url('../fonts/FRADM.ttf'), url('../fonts/FRADM.eot');
+	font-family: FranklinH;
+}
+@font-face{
+	src: local('Franklin Gothic Medium Condensed'), url('../fonts/FRAMDCN.ttf'), url('../fonts/FRAMDCN.eot');
+	font-family: FranklinC;
+}
+@font-face{
+	src: local('Brush Script Std'), url('../fonts/BrushScriptStd.otf'), url('../fonts/BrushScriptStd.eot');
+	font-family: Brush Script;
+}
+@font-face{
+	src: local('Bell'), url('../fonts/BellGothicStd-Black.otf'), url('../fonts/Black.eot');
+	font-family: Bell Black;
+} 
+@font-face{
+	src: local('Kristen ITC'), url('../fonts/ITCKRIST.ttf'), url('../fonts/ITCKRIST.eot');
+	font-family: Kristen;
+}
+body {
+	font-family: Tai Le;
+}
+h1 {
+	font-size: 25px;
+	font-family: Bell;
+}
+h2 {
+	font-size: 22px;
+}
+h3 {
+	font-size: 20px;
+}
+h4 {
+	font-size: 18px;
+}
+h5 {
+	font-size: 16px;
+}
+h6{
+	font-size: 14px;
+}
+div, span, p {
+	font-size: 12px;
+}
