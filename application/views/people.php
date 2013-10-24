@@ -11,10 +11,10 @@
     <div id="sidebar" class="col-md-3 affix" data-offset-top="200">
       <ul class="nav nav-stacked nav-list">
 	    <li><a href="#faculty" >Faculty</a></li>
-        <li><a href="#staff" >Staff</a></li>
-        <li><a href="#students" >Students</a></li>
-	  </ul>
-	</div>
+           <li><a href="#staff" >Staff</a></li>
+           <li><a href="#students" >Students</a></li>
+      </ul>
+     </div>
 	<div class="col-md-9 content">
 		<section id = 'faculty'>
 			<h1>Faculty</h1>
@@ -33,105 +33,9 @@
 						<td><?php echo $fac->lab ?></td>
 						<td><?php echo $fac->rank ?></td>
 					</tr>
-
 				<?php } ?>
-						<!-- 	<tr>
-								<td>Prospero Naval Jr.</td>
-								<td>CVMIG</td>
-								<td>Associate Professor</td>
-							</tr>
-							<tr>
-								<td>Susan Festin</td>
-								<td>CSG</td>
-								<td>Associate Professor</td>
-							</tr>
-							<tr>
-								<td>Cedric Festin</td>
-								<td>NDSG</td>
-								<td>Associate Professor</td>
-							</tr>
-							<tr>
-								<td>Henry Adorna</td>
-								<td>ACL</td>
-								<td>Associate Professor</td>
-							</tr>
-							<tr>
-								<td>Vena Pearl Bongolan</td>
-								<td>SCL</td>
-								<td>Associate Professor</td>
-							</tr>
-							<tr>
-								<td>Jaymar Soriano</td>
-								<td>SCL</td>
-								<td>Assistant Professor</td>
-							</tr>
-							<tr>
-								<td>Mario Carreon</td>
-								<td>NDSG</td>
-								<td>Assistant Professor</td>
-							</tr>
-							<tr>
-								<td>Phillip Christian Zu&ntildeiga</td>
-								<td>CSG</td>
-								<td>Assistant Professor</td>
-							</tr>
-							<tr>
-								<td>Rommel Feria</td>
-								<td>WSG</td>
-								<td>Assistant Professor</td>
-							</tr>
-							<tr>
-								<td>Tristan Basa</td>
-								<td>CVMIG</td>
-								<td>Assistant Professor</td>
-							</tr>
-							<tr>
-								<td>Adrian Roy Valdez</td>
-								<td>SCL</td>
-								<td>Assistant Professor</td>
-							</tr>
-							<tr>
-								<td>Jasmine Malinao</td>
-								<td>ACL</td>
-								<td>Assistant Professor</td>
-							</tr>
-							<tr>
-								<td>Jan Michael Yap</td>
-								<td>ACL</td>
-								<td>Assistant Professor</td>
-							</tr>
-							<tr>
-								<td>Kelvin Buno</td>
-								<td>ACL</td>
-								<td>Assistant Professor</td>
-							</tr>
-							<tr>
-								<td>Ligaya Leah Figueroa</td>
-								<td>CVMIG</td>
-								<td>Assistant Professor</td>
-							</tr>
-							<tr>
-								<td>Riza Theresa Navarro-Batista</td>
-								<td>CVMIG</td>
-								<td>Assistant Professor</td>
-							</tr>
-							<tr>
-								<td>Paulo Noel Paje</td>
-								<td>S3</td>
-								<td>Assistant Professor</td>
-							</tr>
-							<tr>
-								<td>Carlo Raquel</td>
-								<td>CVMIG</td>
-								<td>Assistant Professor</td>
-							</tr>
-							<tr>
-								<td>Ma. Rowena Solamo</td>
-								<td>WSG</td>
-								<td>Assistant Professor</td>
-							</tr> -->
-							</tbody>
-						</table>
+				</tbody>
+			</table>
 					</section>
 					<section id = 'staff'>
 						<h1>Staff</h1>
@@ -181,31 +85,44 @@
 					</section>
 				</div>
 			</div>
+			
 			<!-- MODAL -->
 			<?php foreach($faculty as $fac) { ?>
-				<div id = "<?php echo $fac->id; ?>" class = 'modal hide fade' tabindex = '-1' role = 'dialog' aria-labelledby = 'myModalLabel' aria-hidden = 'true'> 
-					<img class = 'img-polaroid pull-left' src = "<?php echo base_url('files/people_pics').'/'.$fac->thumb_pic; ?>"></img> 
-					<h3><?php echo $fac->name; ?></h3> 
-					<h5><i class = 'icon-user'></i><?php echo $fac->rank; ?></h5> 
-					<h5><i class = 'icon-bookmark'></i><?php echo $fac->lab; ?></h5>
-					<div class = 'research'>
-						<h5><i class = 'icon-pencil'></i>Research Interests</h5>
-						<span><?php echo $fac->interest; ?></span>
-						<!-- <span>Bioinformatics</span>
-						<span>Image Processing</span> -->
-					</div>
-					<div>
-						<h5><i class = 'icon-calendar'></i>Consultation Hours</h5>
-						<span><?php echo $fac->consult_hours; ?></span>
-					</div>
-					<div>
-						<h5><i class = 'icon-envelope'></i>Email</h5>
-						<span><?php echo $fac->email; ?></span>
-					</div>
-					<div>
-						<h5><i class = 'icon-globe'></i>Website</h5>
-						<span>www.imaprof.me</span>
-					</div>
+				<div id = "<?php echo $fac->id; ?>" class = 'modal fade' tabindex = '-1' role = 'dialog' aria-labelledby = 'myModalLabel' aria-hidden = 'true'> 
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								<h3 class="modal-title center"><?php echo $fac->name; ?></h3>
+							</div>
+							<div class="modal-body container">
+								<img class="col-md-6 pull-left img-responsive" src = "<?php echo base_url('files/people_pics').'/'.$fac->thumb_pic; ?>"></img>
+								
+								<div class="col-md-6 pull-left">
+									<h5><i class = 'icon-user'></i><?php echo $fac->rank; ?></h5> 
+									<h5><i class = 'icon-bookmark'></i><?php echo $fac->lab; ?></h5>
+									<div class = 'research'>
+										<h5><i class = 'icon-pencil'></i>Research Interests</h5>
+										<span><?php echo $fac->interest; ?></span>
+										<!-- <span>Bioinformatics</span>
+										<span>Image Processing</span> -->
+									</div>
+									<div>
+										<h5><i class = 'icon-calendar'></i>Consultation Hours</h5>
+										<span><?php echo $fac->consult_hours; ?></span>
+									</div>
+									<div>
+										<h5><i class = 'icon-envelope'></i>Email</h5>
+										<span><?php echo $fac->email; ?></span>
+									</div>
+									<div>
+										<h5><i class = 'icon-globe'></i>Website</h5>
+										<span>www.imaprof.me</span>
+									</div>
+								</div>
+							</div>
+						</div><!-- /.modal-content -->
+					</div><!-- /.modal-dialog -->
 				</div>
 			<?php } ?>
 </div>

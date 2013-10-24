@@ -1,20 +1,21 @@
 <!-- Load Header -->
 <?php $this->load->view('includes/header'); ?>
-	<body data-spy = 'scroll' data-target = '#sidebar'>		
+
+<body data-spy="scroll" data-target="#sidebar" data-offset="200">		
 		
 		<!-- Load Navigation Bar-->
 		<?php $this->load->view('includes/nav'); ?>
 
-		<div class = 'container-fluid'>
-			<div class = 'row-fluid'>
-				<div class = 'span4' id = 'sidebar'>
-					<ul class = 'nav nav-list affix-top' data-spy = 'affix'>
-						<li class = 'nav-header'><a href = '#bachelor'>Bachelor's Degree</a></li> 
-						<li class = 'nav-header'><a href = '#master'>Master's Degree</a></li>
-						<li class = 'nav-header'><a href = '#doctor'>Doctorate Degree</a></li>
+		<div class = 'container'>
+			<div class = 'row'>
+				<div id="sidebar" class="col-md-3 affix" data-offset-top="200">
+					<ul class="nav nav-stacked nav-list">
+						<li><a href = '#bachelor'>Bachelor's Degree</a></li> 
+						<li><a href = '#master'>Master's Degree</a></li>
+						<li><a href = '#doctor'>Doctorate Degree</a></li>
 					</ul>
 				</div>
-				<div class = 'span8'> 
+				<div class = 'col-md-9 content'> 
 					<section id = 'bachelor'>
 						<h1>Bachelor of Science in Computer Science</h1>
 						<h3>Background / Rationale</h3>
@@ -151,5 +152,7 @@
 					</a>
 				</section> 
 			</div>
+			</div>
+			</div>
 <!-- Load Footer-->
-<?php $this->load->view('includes/footer', array('tag' => 'programs')); ?>
+<?php $this->load->view('includes/footer', array('tag' => 'landing')); ?>

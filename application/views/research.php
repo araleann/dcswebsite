@@ -1,15 +1,15 @@
 <!-- Load Header -->
 <?php $this->load->view('includes/header'); ?>
 
-<body data-spy = 'scroll' data-target = '#sidebar'>		
+<body data-spy = 'scroll' data-target = '#sidebar' data-offset="200">		
 		
 		<!-- Load Navigation Bar-->
 		<?php $this->load->view('includes/nav'); ?>
 
-		<div class = 'container-fluid'>
-			<div class = 'row-fluid'>
-				<div class = 'span4' id = 'sidebar'> 
-					<ul class = 'nav nav-list affix-bottom' data-spy = 'affix'>
+		<div class = 'container'>
+			<div class = 'row'>
+				<div class = 'col-md-3 affix' id = 'sidebar' data-offset-top="200"> 
+					<ul class="nav nav-stacked nav-list">
 						<li ><a href = '#acl'><small>Algorithms and<br />Complexity Laboratory</small><h1>ACL</h1></a></li> 
 						<li ><a href = '#csg'><small>Computer Security<br />Group</small><h1>CSG</h1></a></li>
 						<li ><a href = '#cvmig'><small>Computer Vision and<br />Machine Intelligence<br/>Group</small><h1>CVMIG</h1></a></li>
@@ -19,7 +19,7 @@
 						<li ><a href = '#wsg'><small>Web Science<br />Group</small><h1>WSG</h1></a></li>
 					</ul>
 				</div> 
-				<div class = 'span8' id = 'labdesc'> 
+				<div class = 'col-md-9' id = 'labdesc'> 
 					<section id = 'acl'>
 						<h1>Algorithms and Complexity Laboratory</h1> 
 						<p>
@@ -148,7 +148,8 @@
 						</ul>
 					</section>
 				</div>
-			</div> 
+			</div>
+		</div>
 
 <!-- Load Footer-->
-<?php $this->load->view('includes/footer', array('tag' => 'research')); ?>
+<?php $this->load->view('includes/footer', array('tag' => 'landing')); ?>

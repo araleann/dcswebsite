@@ -15,7 +15,7 @@
   <div class="collapse navbar-collapse navbar-ex1-collapse">
     <ul class="nav navbar-nav">
 		<li><a href = "<?php echo site_url('main'); ?>" class="active">Home</a></li>
-		<li><a href = "<?php echo site_url('news'); ?>">News</a></li>
+		<!--<li><a href = "<?php echo site_url('news'); ?>">News</a></li>-->
 		<li><a href = "<?php echo site_url('people'); ?>">People</a></li>
 		<li><a href = "<?php echo site_url('programs'); ?>">Programs</a></li>
 		<li><a href = "<?php echo site_url('main/research'); ?>">Research</a></li>

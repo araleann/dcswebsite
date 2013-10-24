@@ -1,0 +1,38 @@
+<!--<img class = 'img-polaroid pull-left' src = "<?php echo base_url('files/people_pics').'/'.$fac->thumb_pic; ?>"></img> -->
+					<h3><?php echo $fac->name; ?></h3> 
+					<h5><i class = 'icon-user'></i><?php echo $fac->rank; ?></h5> 
+					<h5><i class = 'icon-bookmark'></i><?php echo $fac->lab; ?></h5>
+					<div class = 'research'>
+						<h5><i class = 'icon-pencil'></i>Research Interests</h5>
+						<span><?php echo $fac->interest; ?></span>
+						<!-- <span>Bioinformatics</span>
+						<span>Image Processing</span> -->
+					</div>
+					<div>
+						<h5><i class = 'icon-calendar'></i>Consultation Hours</h5>
+						<span><?php echo $fac->consult_hours; ?></span>
+					</div>
+					<div>
+						<h5><i class = 'icon-envelope'></i>Email</h5>
+						<span><?php echo $fac->email; ?></span>
+					</div>
+					<div>
+						<h5><i class = 'icon-globe'></i>Website</h5>
+						<span>www.imaprof.me</span>
+					</div>
+					
+Notes:
+* pictures of professors in People Page
+* style of text in modals in People Page
+* elaborate vision and mission in About Page
+* prettify sidebar
+* review data-offset of sidebars
+* prettify footer
+* prettify Research Page
+* prettify Affiliates Page
+* fix Contacts Page
+* glyphicons in bootstrap 3
+* "partners" --> "affiliates"
+* apply font, active effects on navbar
+* put background image on body
+* improve readability of style.css

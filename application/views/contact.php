@@ -6,9 +6,9 @@
 		<!-- Load Navigation Bar-->
 		<?php $this->load->view('includes/nav'); ?>
 
-		<div class = 'container-fluid'>
-			<div class = 'row-fluid'>
-				<div class = 'span4'>
+		<div class = 'container'>
+			<div class = 'row'>
+				<div class = 'col-md-4'>
 					<form class = 'form-horizontal' method = "post" action="<?php echo site_url('contact/email'); ?>">
 						<div class = 'control-group'>
 							<label class = 'control-label' for = 'Name'>Name</label>
@@ -47,11 +47,12 @@
 						<a href = ''>twitter.com/dcs</a>
 					</div>
 				</div>
-				<div class = 'span8'>
+				<div class = 'col-md-8'>
 					<iframe frameborder = '0' scrolling = 'no' marginheight = '0' marginwidth = '0' src='https://maps.google.com.ph/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=UP+Dept+of+Computer+Science,+P.+Velasquez+St,+Quezon+City&amp;aq=0&amp;oq=Depa&amp;sll=12.07895,121.95925&amp;sspn=18.867159,28.256836&amp;ie=UTF8&amp;hq=&amp;hnear=UP+Dept+of+Computer+Science,+P.+Velasquez+St,+Diliman,+Quezon+City,+Metro+Manila&amp;t=m&amp;z=14&amp;iwloc=A&amp;output=embed' style = 'height: 316px;'>
 					</iframe>
 				</div>
 			</div>
+		</div>
 
 <!-- Load Footer-->
 <?php $this->load->view('includes/footer', array('tag' => 'contact')); ?>

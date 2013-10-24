@@ -1,7 +1,7 @@
 <!-- Load Header -->
 <?php $this->load->view('includes/header'); ?>
 
-<body data-spy = 'scroll' data-target = '#sidebar'>		
+<body>		
 	
 		<script type = 'text/javascript'>
 			var slides = [			// Slideshow Images 
@@ -23,11 +23,11 @@
 				<div id = 'slidecaption'></div> 
 				
 			</div>
+			</div>
 		</ul>
-	</div>
 		<div class = 'container'> 
-			<div class = 'row-fluid padded'>
-				<div class = 'span6'>
+			<div class = 'row padded'>
+				<div class = 'col-md-6'>
 					<h1>About the Department</h1>
 					<p>The Department of Computer Science is one of the eight departments in the College of Engineering (COE), 
 					University of the Philippines Diliman (UPD). the road to establishing the youngest department in COE
@@ -48,7 +48,7 @@
 					Bachelor of Science in Computer Science program. 
 					</p> 
 				</div>
-				<div class = 'span6'>
+				<div class = 'col-md-6'>
 					<p>In May 1995, twenty years after the institution of the 
 					pioneering, but now defunct, MEngg CS program, the BOR approved the institution of a new Master of 
 					Science in Computer Science (MSCS) program. Both the BSCS and MSCS program continue to attract some 
@@ -72,13 +72,13 @@
 
 				</div>
 			</div>
-			<div class = 'row-fluid padded'> 
-				<div class = 'span6'>
+			<div class = 'row padded'> 
+				<div class = 'col-md-6'>
 					<h1>Vision</h1>
 					<p>The Department of Computer Science will be a world-class research and teaching institution in the 
 					field of Computer Science that serves the interest of the country.</p>
 				</div>
-				<div class = 'span6'>
+				<div class = 'col-md-6'>
 					<h1>Mission</h1>
 					<p>The mission of the Department of Computer Science is to produce graduates equipped with the 
 					knowledge and skills required for professional careers and advanced studies in computer science, 
@@ -88,12 +88,12 @@
 					education programs.</p>
 				</div>
 			</div>
-			<div class = 'row-fluid padded'>
-				<div class = 'span2 start-block maroon'>
+			<div class = 'row padded'>
+				<div class = 'col-md-2 start-block maroon'>
 					<h1>News</h1>
 					<a href = ''>More News &rarr;</a>
 				</div>
-				<div class = 'span10 end-block'>
+				<div class = 'col-md-10 end-block'>
 					<div class = 'full-height'>
 						<div class = 'viewport'> 
 							<div class = 'wrapper'>
@@ -182,12 +182,12 @@
 					</div>
 				</div>
 			</div>
-			<div class = 'row-fluid padded'>
-				<div class = 'span2 start-block orange'>
+			<div class = 'row padded'>
+				<div class = 'col-md-2 start-block orange'>
 					<h1>Events</h1>
 					<a href = ''>More Events &rarr;</a>
 				</div>
-				<div class = 'span10 end-block'>
+				<div class = 'col-md-10 end-block'>
 					<div class = 'full-height'>
 						<div class = 'viewport'> 
 							<div class = 'wrapper'>
@@ -234,6 +234,6 @@
 					</div>
 				</div>
 			</div> 
-
+		</div>
 <!-- Load Footer-->
 <?php $this->load->view('includes/footer', array('tag' =>'landing')); ?>

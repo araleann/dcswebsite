@@ -1,21 +1,20 @@
 <!-- Load Header -->
 <?php $this->load->view('includes/header'); ?>
 
-	<body data-spy = 'scroll' data-target = '#sidebar'>		
+	<body data-spy = 'scroll' data-target = '#sidebar' data-offset="200">		
 		
 		<!-- Load Navigation Bar-->
 		<?php $this->load->view('includes/nav'); ?>
 
-		<div class = 'container-fluid'>
-			<div class = 'row-fluid'>
-				<div class = 'span4' id = 'sidebar'>
-					<ul class = 'nav nav-list affix-top' data-spy = 'affix'>
+		<div class = 'container'>
+			<div class = 'row'>
+				<div class = 'col-md-3 affix' id = 'sidebar'>
+					<ul class = 'nav nav-stacked nav-list'>
 						<li class = 'nav-header'><a href = '#iglap'>IGLAP Partners</a></li> 
 						<li class = 'nav-header'><a href = '#corp'>Corporate Donors</a></li>
-					<!-- 	<li class = 'nav-header'><a href = '#private'>Private Sponsors</a></li> -->
 					</ul>
 				</div>
-				<div class = 'span8'>
+				<div class = 'col-md-9'>
 					<section id = 'iglap'>
 						<h1>IGLAP Partners</h1>
 						

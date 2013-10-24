@@ -1,6 +1,6 @@
 <footer data-appear-top-offset=-100>
 	<div class="container">
-		<div class="col-md-3 col-md-offset-2">
+		<div class="col-md-3 col-md-offset-1">
 			<h4>Navigate</h4>
 			<hr>
 			<div><small><a href = "<?php echo base_url(); ?>">Home</a></small></div>
