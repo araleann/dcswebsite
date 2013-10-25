@@ -26,3 +26,4 @@ To do:
 * apply font, active effects on navbar
 * put background image on body
 * improve readability of style.css
+* provide correct email, phone number in Footer
