@@ -1,19 +1,12 @@
 html {
-	font-family:sans-serif;
-	-webkit-text-size-adjust:100%;
-	-ms-text-size-adjust:100%;
 }
 
 body {
 	padding-top: 80px;
 	background: #fbfbfb;
 	color:#4c4c4c;
-	font-family:"BentonSans", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
-	line-height:1.4em;
 }
 
-
-body{}
 
 /* BRAND */
 
@@ -36,9 +29,6 @@ div.cs{
 	padding: 10px;
 }
 
-/*.affix {
-    top: 10px;
-}*/
 
 /* Sidebar */
 

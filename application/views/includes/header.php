@@ -14,4 +14,5 @@
 		<link rel = 'stylesheet' href = "<?php echo base_url('css/style.css'); ?>"></link>
 		<link rel = 'stylesheet' href = "<?php echo base_url('css/supersized.css'); ?>"></link> 
 		<link rel = 'stylesheet' href = "<?php echo base_url('css/fonts.css'); ?>"></link>
+		<link rel = 'stylesheet' href = "<?php echo base_url('css/font-awesome.min.css'); ?>"></link>
 	</head>
