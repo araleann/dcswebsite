@@ -23,9 +23,10 @@ div.cs{
 }
 
 .navbar .nav > li > a {
-	font-size: 15px;
-	text-transform: uppercase;
-	line-height: 40px;
+	font-size: 18px;
+	font-family: "Microsoft Tai Le", Microsoft, serif;
+	line-height: 50px;
+	letter-spacing:1px;
 	padding: 10px;
 }
 
@@ -38,6 +39,9 @@ div.cs{
 }
 
 #sidebar .nav li a {
+	font-size: 15px;
+	font-family: "Microsoft Tai Le", Microsoft, serif;
+	letter-spacing:1px;
 	color: #4c4c4c;
 	position: relative;
 }
@@ -59,11 +63,9 @@ box-shadow: 0 1px 4px rgba(0,0,0,.065);
 /*color: #ffffff;*/
 text-shadow: 0 -1px 0 
 rgba(0, 0, 0, 0.2);
-background-color: #eee;
 }
 
 #sidebar .nav li.active a {
-	background-color: #eee;
 	font-weight:bold;
 }
 #sidebar .nav li a:hover {
@@ -108,7 +110,6 @@ footer{
 }
 
 footer h4 {
-	text-transform: uppercase;
 	margin-bottom: -15px;
 }
 
