@@ -10,6 +10,7 @@ Done:
 * initial sidebar
 * initial About Page
 * initial People Page
+* initial Affiliates Page
 
 To do:
 * pictures of professors in People Page
@@ -27,3 +28,4 @@ To do:
 * put background image on body
 * improve readability of style.css
 * provide correct email, phone number in Footer
+* provide link for corporate donors in Affiliates Page

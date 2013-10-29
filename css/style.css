@@ -139,20 +139,32 @@ footer a:hover, footer a:active{
 @font-face{font-family:BentonSans;font-weight:normal;font-style:normal;src:url(//d4yt8xl9b7in.cloudfront.net/assets/bentonsans-regular-13c15d60ddabd9d28d3e5c2d51b97d13.eot);src:url(//d4yt8xl9b7in.cloudfront.net/assets/bentonsans-regular.eot?#iefix) format("embedded-opentype"),url(//d4yt8xl9b7in.cloudfront.net/assets/bentonsans-regular-f94699eab9db9172ba064c99fec1aef0.woff) format("woff"),url(//d4yt8xl9b7in.cloudfront.net/assets/bentonsans-regular-dc47564d53b347534f673b412fb0a061.ttf) format("truetype"),url(//d4yt8xl9b7in.cloudfront.net/assets/bentonsans-regular.svg#BentonSans) format("svg")}
 @font-face{font-family:BentonSans;font-weight:bold;font-style:normal;src:url(//d4yt8xl9b7in.cloudfront.net/assets/bentonsans-medium-b3d58500f626d7863d22cb84b0b32e8c.eot);src:url(//d4yt8xl9b7in.cloudfront.net/assets/bentonsans-medium.eot?#iefix) format("embedded-opentype"),url(//d4yt8xl9b7in.cloudfront.net/assets/bentonsans-medium-09c1eb88ad32a9ad8aa37b19d83587a9.woff) format("woff"),url(//d4yt8xl9b7in.cloudfront.net/assets/bentonsans-medium-c6c941bab568552877aa49862cbbb08b.ttf) format("truetype"),url(//d4yt8xl9b7in.cloudfront.net/assets/bentonsans-medium.svg#BentonSans) format("svg")}
 
-/* IGLAP */
+/* Affiliates */
 
-section > div:not(:nth-child(2)) div.iglap { 
-	margin-top: 2.7624309392265194%;
-}
-section div.iglap img {
-	margin-left: -2px;
-	margin-top: -2px;
-	border: 1px solid #333;
-}
-section div.iglap {
+div.iglap {
 	float: left !important;
 	width: 25% !important;
 }
-section div.iglap img {
+
+div.iglaprow {
+	margin-bottom: 2.5%;
+}
+
+div.iglap img {
 	width: 100%;
+}
+
+div .corp img{
+	margin: 10px 10px 10px 10px;
+}
+
+div .page_header h1{
+	font-size: 80px;
+	font-family: "Microsoft Tai Le", Microsoft, serif;
+	/*font-family: Elephant, Arial Black, serif;*/
+}
+
+section h1{
+	font-family: "Microsoft Tai Le", Microsoft, serif;
+	/*font-family: Elephant, Arial Black, serif;*/
 }
