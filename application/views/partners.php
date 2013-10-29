@@ -18,12 +18,12 @@
 					<section id = 'iglap'>
 						<h1>IGLAP Partners</h1>
 						
-						<div class = 'row-fluid'>
+						<div class = 'row'>
 							<?php $count = 0; ?>
 								<?php foreach($sponsors as $sponsor) { ?>
 									
 									<?php if($count < 4 ) { ?>
-									<div class = 'span3 iglap '>
+									<div class = 'col-md-3 iglap'>
 										
 										<a href = "<?php echo 'http://'.$sponsor->link;?>" target="_blank" title = "<?php echo $sponsor->name; ?>"><img src = "<?php echo base_url('files/logos')."/".$sponsor->logo; ?>"></img></a>
 									</div>
@@ -31,7 +31,7 @@
 									<?php } else { ?>
 									    <?php $count = 0; ?>
 										</div>
-										<div class = 'row-fluid'>
+										<div class = 'row'>
 									 
 									<?php } ?>
 
@@ -60,6 +60,6 @@
 					</section> -->
 				</div>
 			</div>
-
+		</div>
 <!-- Load Footer-->
-<?php $this->load->view('includes/footer', array('tag' => 'partners')); ?>
+<?php $this->load->view('includes/footer', array('tag' => 'landing')); ?>
