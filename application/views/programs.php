@@ -43,15 +43,10 @@
 							<li>Application systems</li>
 							<li>Computer networks and distributed systems</li>
 						</ul>	
-						<p></p>
-						
-						<h3>Curriculum and Complete Course Description</h3>
-						<a href = "<?php echo base_url('files/programs/BS_CS_curriculum.pdf'); ?>" target = '_blank'>
-							<i class = 'icon-search'></i>View on browser
-						</a>
-						<a href = "<?php echo site_url('programs/dl/1'); ?>">
-							<i class = 'icon-download'></i>Download
-						</a> 
+						<p><strong>Curriculum and Complete Course Description: </strong>
+						<a type="button" class="btn btn-default" href = "<?php echo base_url('files/programs/BS_CS_curriculum.pdf'); ?>" target = '_blank'>View on browser</a>
+						<a type="button" class="btn btn-default" href = "<?php echo site_url('programs/dl/1'); ?>">Download</a>
+						</p>
 				</section> 
 				<section id = 'master'>
 					<h1>Master of Science in Computer Science</h1>
@@ -91,14 +86,11 @@
 							Applicants must get their endorsement by one of the department’s six (6) research laboratories.
 						</li>
 					</ol>  
-				 
-					<h3>Curriculum and Complete Course Description</h3>
-					<a href = "<?php echo base_url('files/programs/MS_CS_curriculum.pdf'); ?>" target = '_blank'>
-						<i class = 'icon-search'></i>View on browser
-					</a>
-					<a href = "<?php echo site_url('programs/dl/2'); ?>">
-						<i class = 'icon-download'></i>Download
-					</a> 
+					
+					<p><strong>Curriculum and Complete Course Description: </strong>
+					<a type="button" class="btn btn-default" href = "<?php echo base_url('files/programs/MS_CS_curriculum.pdf'); ?>" target = '_blank'>View on browser</a>
+					<a type="button" class="btn btn-default" href = "<?php echo site_url('programs/dl/2'); ?>">Download</a>
+					</p>
 				</section> 
 				<section id = 'doctor'>
 					<h1>Doctor of Philosophy in Computer Science</h1>
@@ -143,13 +135,10 @@
 							</ul>
 						</li>
 					</ol>  
-					<h3>Curriculum and Complete Course Description</h3>
-					<a href = "<?php echo base_url('files/programs/PhD_CS_curriculum.pdf'); ?>" target = '_blank'>
-						<i class = 'icon-search'></i>View on browser
-					</a>
-					<a href = "<?php echo site_url('programs/dl/3'); ?>">
-						<i class = 'icon-download'></i>Download
-					</a>
+					<p><strong>Curriculum and Complete Course Description: </strong>
+					<a type="button" class="btn btn-default" href = "<?php echo base_url('files/programs/PhD_CS_curriculum.pdf'); ?>" target = '_blank'>View on browser</a>
+					<a type="button" class="btn btn-default" href = "<?php echo site_url('programs/dl/3'); ?>">Download</a>
+					</p>
 				</section> 
 			</div>
 			</div>
