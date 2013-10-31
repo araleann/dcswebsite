@@ -7,11 +7,11 @@
 		<?php $this->load->view('includes/nav'); ?>
 
 		<div class = 'container'>
-			<div class = 'col-md-offset-3 col-md-9'>
+			<!--<div class = 'col-md-offset-3 col-md-9'>
 				<div class="page_header center">
 					<h1>Affiliates</h1>
 				</div>
-			</div>
+			</div>-->
 			<div class = 'row'>
 				<div class = 'col-md-3 affix' id = 'sidebar'>
 					<ul class = 'nav nav-stacked nav-list'>

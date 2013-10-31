@@ -88,7 +88,7 @@
 			
 			<!-- MODAL -->
 			<?php foreach($faculty as $fac) { ?>
-				<div id = "<?php echo $fac->id; ?>" class = 'modal fade' tabindex = '-1' role = 'dialog' aria-labelledby = 'myModalLabel' aria-hidden = 'true'> 
+				<div id = "<?php echo $fac->id; ?>" class = 'modal' tabindex = '-1' role = 'dialog' aria-labelledby = 'myModalLabel' aria-hidden = 'true'> 
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<div class="modal-header">

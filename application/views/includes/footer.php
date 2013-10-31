@@ -46,6 +46,7 @@
 	<script type = 'text/javascript' src = "<?php echo base_url('js/jquery.js'); ?>"></script>
 	<script type = 'text/javascript' src = "<?php echo base_url('js/bootstrap.min.js'); ?>"></script> 
 	<script type = 'text/javascript' src = "<?php echo base_url('js/jquery.appear.js'); ?>"></script>
+	<script type = 'text/javascript' src = "<?php echo base_url('js/holder.js'); ?>"></script>
 
 	<?php if ($tag == 'landing') { ?>
 			<script type = 'text/javascript' src = "<?php echo base_url('js/supersized.js'); ?>"></script>  
