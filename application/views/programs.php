@@ -17,7 +17,7 @@
 				</div>
 				<div class = 'col-md-9 content'> 
 					<section id = 'bachelor'>
-						<h1>Bachelor of Science in Computer Science</h1>
+						<h1>Bachelor of Science in Computer Science</h1><hr>
 						<h3>Background / Rationale</h3>
 						<p>
 							The BSCS program is designed to equip the student with a knowledge of the fundamental concepts and
@@ -47,9 +47,10 @@
 						<a type="button" class="btn btn-default" href = "<?php echo base_url('files/programs/BS_CS_curriculum.pdf'); ?>" target = '_blank'>View on browser</a>
 						<a type="button" class="btn btn-default" href = "<?php echo site_url('programs/dl/1'); ?>">Download</a>
 						</p>
+						<hr>
 				</section> 
 				<section id = 'master'>
-					<h1>Master of Science in Computer Science</h1>
+					<h1>Master of Science in Computer Science</h1><hr>
 					<h3>Background / Rationale</h3>
 					<p>
 						The MSCS program aims to provide both breadth and depth of knowledge in the concepts and techniques
@@ -91,9 +92,10 @@
 					<a type="button" class="btn btn-default" href = "<?php echo base_url('files/programs/MS_CS_curriculum.pdf'); ?>" target = '_blank'>View on browser</a>
 					<a type="button" class="btn btn-default" href = "<?php echo site_url('programs/dl/2'); ?>">Download</a>
 					</p>
+					<hr>
 				</section> 
 				<section id = 'doctor'>
-					<h1>Doctor of Philosophy in Computer Science</h1>
+					<h1>Doctor of Philosophy in Computer Science</h1><hr>
 					<h3>Background / Rationale</h3>
 					<p>
 						The program aims to develop computer scientists who are armed with methods, tools and techniques 

@@ -57,7 +57,8 @@
 			<li>Dr. Ronald M. Tungol (October 2002 - May 2005)</li>
 			<li>Dr. Cedric Angelo M. Festin (June 2005 - May 2008)</li>
 			<li>Dr. Jaime D.L. Caro (June 2008 - April 2011)</li>
-			<li>Dr. Adrian Roy L. Valdez (March 2011 - present )</li>
+			<li>Dr. Adrian Roy L. Valdez (March 2011 - March 2013)</li>
+			<li>Dr. Cedric Angelo M. Festin (April 2013 - present)</li>
 		</ul>
 		
 		<p>Initially located in the College of Engineering Building (Melchor Hall), the Department of Computer 
