@@ -45,7 +45,7 @@
 | the active record class
 */
 
-$active_group = 'default';
+$active_group = 'edgar_home';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
@@ -64,6 +64,21 @@ $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
 
+$db['edgar_home']['hostname'] = 'localhost';
+$db['edgar_home']['username'] = 'root';
+$db['edgar_home']['password'] = 'root';
+$db['edgar_home']['database'] = 'dcs_website';
+$db['edgar_home']['dbdriver'] = 'mysql';
+$db['edgar_home']['dbprefix'] = '';
+$db['edgar_home']['pconnect'] = TRUE;
+$db['edgar_home']['db_debug'] = TRUE;
+$db['edgar_home']['cache_on'] = FALSE;
+$db['edgar_home']['cachedir'] = '';
+$db['edgar_home']['char_set'] = 'utf8';
+$db['edgar_home']['dbcollat'] = 'utf8_general_ci';
+$db['edgar_home']['swap_pre'] = '';
+$db['edgar_home']['autoinit'] = TRUE;
+$db['edgar_home']['stricton'] = FALSE;
 
 /* End of file database.php */
 /* Location: ./application/config/database.php */

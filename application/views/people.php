@@ -31,7 +31,7 @@
 					<tr>
 						<td><a href = "<?php echo '#'.$fac->id;?>" data-toggle = 'modal'><?php echo $fac->name; ?></a></td>
 						<td><?php echo $fac->lab ?></td>
-						<td><?php echo $fac->rank ?></td>
+						<td><?php echo $fac->position ?></td>
 					</tr>
 				<?php } ?>
 				</tbody>
@@ -99,7 +99,7 @@
 								<img class="col-md-6 pull-left img-responsive" src = "<?php echo base_url('files/people_pics').'/'.$fac->thumb_pic; ?>"></img>
 								
 								<div class="col-md-6 pull-left">
-									<h5><i class = 'icon-user'></i><?php echo $fac->rank; ?></h5> 
+									<h5><i class = 'icon-user'></i><?php echo $fac->position; ?></h5> 
 									<h5><i class = 'icon-bookmark'></i><?php echo $fac->lab; ?></h5>
 									<div class = 'research'>
 										<h5><i class = 'icon-pencil'></i>Research Interests</h5>

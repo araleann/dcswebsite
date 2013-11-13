@@ -27,7 +27,7 @@ class Contact_us extends CI_Model{
 	public function recMail($email, $name, $msg){
 
 		$this->email->from($email, $name);
-		$this->email->to('webteam@dcs.upd.edu.ph'); 
+		$this->email->to('info@dcs.upd.edu.ph'); 
 		$this->email->set_newline("\r\n");
 
 		$this->email->subject('Message From Website');

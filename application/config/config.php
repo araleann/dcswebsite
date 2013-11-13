@@ -14,7 +14,9 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/myfiles/new_dcsw/';
+//kester's config
+//$config['base_url']	= 'http://localhost/myfiles/new_dcsw/';
+$config['base_url']	= '';
 
 /*
 |--------------------------------------------------------------------------
