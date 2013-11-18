@@ -46,34 +46,73 @@
 		
 		<div class = 'container'> 
 			<div class = 'row'>
-				<div class="col-md-6 well">
-					<div class="panel panel-default">
+				<div class="col-md-6">
+					<div class="panel panel-primary">
 					  <div class="panel-heading">
-					    <h2 class="panel-title">News</h2>
+					    <h1 class="panel-title">News</h1>
 					  </div>
-					  <div class="panel-body list-group">
-						<a href="#" class="list-group-item">Attention Graduating Students, the Enrollment...</a>
-						<a href="#" class="list-group-item">No Classes on Monday because of ongoing Enrollment</a>
-						<a href="#" class="list-group-item">CS165 under Sir Edgar Felizmenio will be dissolved...</a>
-						</ul>
+					<div class="panel-body">
+						<div class='panel panel-info'>
+							<div class='panel-heading'><a href='#'><h2 class='panel-title'>Lorem Ipsum</h3></a></div>
+							<div class='panel-body'>
+							<p>
+							<img src='http://placehold.it/128x128' class='img-thumbnail img-responsive pull-right'>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tristique ultrices purus, nec malesuada mauris laoreet placerat. Mauris ultricies eu felis id auctor. Integer quis convallis turpis. Vivamus eget est id neque hendrerit suscipit vitae sit amet tortor. Fusce eu dignissim mauris, id fringilla lacus. Proin posuere accumsan lorem, quis tincidunt orci dignissim a. Nullam viverra ligula eget magna sodales faucibus. Praesent vel ultrices turpis. Cras vitae congue purus. Sed et laoreet lorem, non scelerisque sapien.
+							</p><hr/>
+							<a href='#' class='pull-right'>Read More &rarr;</a>
+							</div>
+
+							<ul class='list-group'>
+								<a href="#" class="list-group-item"><strong>No Classes on Monday because of ongoing Enrollment</strong></a>
+								<a href="#" class="list-group-item"><strong>CS165 under Sir Edgar Felizmenio will be dissolved...</strong></a>
+							</ul>
+						</div>
+						<a href='#' class='pull-right'><strong>See All News &rarr;</strong></a>
 					  </div>
 					</div>
 				</div>
 				
-				<div class="col-md-6 well">
+				<div class="col-md-6">
 					<div class="panel panel-danger">
 					  <div class="panel-heading">
-					    <h2 class="panel-title">Announcements</h2>
+					    <h1 class="panel-title">Announcements</h1>
 					  </div>
-					  <div class="panel-body list-group">
-						<a href="#" class="list-group-item">Attention Graduating Students, the Enrollment...</a>
-						<a href="#" class="list-group-item">No Classes on Monday because of ongoing Enrollment</a>
-						<a href="#" class="list-group-item">CS165 under Sir Edgar Felizmenio will be dissolved...</a>
-						</ul>
+					  <div class="panel-body">
+						<div class='alert alert-danger'><a href='#' class='alert-link'>Attention Graduating Students, the Enrollment...</a></div><hr/>
+						<div class='alert alert-danger'><a href='#' class='alert-link'>No Classes on Monday because of ongoing Enrollment</a></div><hr/>
+						<div class='alert alert-danger'><a href='#' class='alert-link'>CS165 under Sir Edgar Felizmenio will be dissolved...</a></div>
+						
+						<span class='pull-right'><a href='#'>See All Announcements&rarr;</a></span>
 					  </div>
 					</div>
 				</div>
+				
 			</div>
+				
+			<div class='panel panel-info'>
+				<div class='panel-heading'>
+					<h1 class='panel-title'>Events</h1>
+				</div>
+				<div class='panel-body'>
+					<div class='row'>
+						<div class='col-md-4'>
+							<h3>November 4-6, 2013</h3>
+							<p>Enrollment for 2nd Semester, A.Y. 2013-2014 at the University of the Philippines-Diliman Campus will start.</p>
+						</div>
+						<div class='col-md-4'>
+							<h3>December 25, 2013</h3>
+							<p>Christmas Day</p>
+						</div>
+						<div class='col-md-4'>
+							<h3>January 1, 2013</h3>
+							<p>New Year.</p>
+						</div>
+					</div>
+					<span class='pull-right'><a href='#'>See All Events&rarr;</a></span>
+				</div>
+			</div> <!-- end of panel -->
+					
+			
 		</div>
 <!-- Load Footer-->
 <?php $this->load->view('includes/footer', array('tag' =>'landing')); ?>
