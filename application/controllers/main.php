@@ -27,11 +27,7 @@ class Main extends CI_Controller {
 	public function research(){
 		$this->load->view('research');
 	}
-
-	public function resources(){
-		$this->load->view('resources');
-	}
-
+	
 	public function test(){
 		$this->load->view('test');
 	}

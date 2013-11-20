@@ -54,7 +54,7 @@
 			<script type = 'text/javascript' src = "<?php echo base_url('js/jquery.easter.2.js'); ?>"></script> 
 			<script type = 'text/javascript' src = "<?php echo base_url('js/index.js'); ?>"></script>
 
-	<?php } else if ($tag == 'news' || $tag == 'resources') { ?>
+	<?php } else if ($tag == 'news') { ?>
 			<script type = 'text/javascript' src = "<?php echo base_url('js/jquery.tablesorter.js'); ?>"></script>
 			<script type = 'text/javascript' src = "<?php echo base_url('js/style.js'); ?>"></script>
 			<script type = 'text/javascript' src = "<?php echo base_url('js/resources.js'); ?>"></script>
