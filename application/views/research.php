@@ -1,14 +1,14 @@
 <!-- Load Header -->
 <?php $this->load->view('includes/header'); ?>
 
-<body data-spy = 'scroll' data-target = '#sidebar' data-offset="200">		
+<body data-spy = 'scroll' data-target = '#research-sidebar' data-offset="200">		
 		
 		<!-- Load Navigation Bar-->
 		<?php $this->load->view('includes/nav'); ?>
 
 		<div class = 'container'>
 			<div class = 'row'>
-				<div class = 'col-md-3 affix' id = 'sidebar' data-offset-top="200"> 
+				<div class = 'col-md-4 affix' id = 'research-sidebar' data-offset-top="200"> 
 					<ul class="nav nav-stacked nav-list">
 						<li ><a href = '#acl'><small>Algorithms and<br />Complexity Laboratory</small><h1>ACL</h1></a></li> 
 						<li ><a href = '#csg'><small>Computer Security<br />Group</small><h1>CSG</h1></a></li>
@@ -19,7 +19,7 @@
 						<li ><a href = '#wsg'><small>Web Science<br />Group</small><h1>WSG</h1></a></li>
 					</ul>
 				</div> 
-				<div class = 'col-md-9' id = 'labdesc'> 
+				<div class = 'col-md-8 content' id = 'labdesc'> 
 					<section id = 'acl'>
 						<h1>Algorithms and Complexity Laboratory</h1> 
 						<p>

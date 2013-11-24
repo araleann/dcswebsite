@@ -6,6 +6,12 @@ body {
 	padding-top: 80px;
 	background: #fbfbfb;
 	color:#4c4c4c;
+	
+	background-image: url(../img/BottomLeft_BG.png);
+	background-attachment: fixed;	
+	background-position: left bottom;
+	background-size: 250px 250px;
+	background-repeat: no-repeat; 
 }
 
 
@@ -77,11 +83,86 @@ rgba(0, 0, 0, 0.2);
 	background-color: #eee;
 }
 
+#sidebar .nav li a  h1 {
+	padding: 0;
+	margin: 0;
+	margin-left: 58%;
+	font-size: 30px;
+}
+
+#sidebar .nav li small { 
+	position: absolute;
+	left: 0;
+	top: 10px;
+	line-height: 90%;
+	text-align: right; 
+	width: 55%;
+	text-transform: uppercase;
+	font-family: Tai Le;
+}
+
 .navbar .nav.active a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus {
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	/*background: transparent;*/
 	/*color: #8b1f1f;*/
+}
+
+/* Research Sidebar */
+
+#research-sidebar .nav li a {
+	font-size: 15px;
+	font-family: "Microsoft Tai Le", Microsoft, serif;
+	letter-spacing:1px;
+	color: #4c4c4c;
+	position: relative;
+}
+
+#research-sidebar .nav-list {
+width: 320px;
+margin: 30px 0 0;
+padding: 0;
+background-color: #fff;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+-moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+box-shadow: 0 1px 4px rgba(0,0,0,.065);
+}
+
+#research-sidebar .nav-list > .active > a, #research-sidebar .nav-list > .active > a:hover, #research-sidebar .nav-list > .active > a:focus {
+/*color: #ffffff;*/
+text-shadow: 0 -1px 0 
+rgba(0, 0, 0, 0.2);
+}
+
+#research-sidebar .nav li.active a {
+	font-weight:bold;
+}
+#research-sidebar .nav li a:hover {
+	background-color: #eee;
+}
+
+#research-sidebar .nav li a  h1 {
+	padding: 0;
+	margin: 0;
+	margin-left: 58%;
+	font-size: 30px;
+}
+#research-sidebar .nav li.active a h1{
+	font-weight:bold;
+}
+
+#research-sidebar .nav li small { 
+	position: absolute;
+	left: 0;
+	top: 10px;
+	line-height: 90%;
+	text-align: right; 
+	width: 55%;
+	text-transform: uppercase;
+	font-family: Tai Le;
 }
 
 /*6e5baa - bootstrap purple*/
@@ -112,6 +193,11 @@ text-justify:inter-word;
 footer{
 	background-color: #8b1f1f;
 	color: #faf7eb;
+	background-image: url(../img/BottomLeft_BG.png);
+	background-attachment: fixed;	
+	background-position: left bottom;
+	background-size: 250px 250px;
+	background-repeat: no-repeat;
 }
 
 footer h4 {

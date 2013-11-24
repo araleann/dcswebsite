@@ -50,7 +50,7 @@
 				</div>
 				<div class = 'col-md-8'>
 					<img src="holder.js/725x225">
-					<br />
+					<br /><br />
 					<iframe width="725" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.ph/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=UP+Department++of+Computer+Science&amp;aq=&amp;sll=14.683961,121.062159&amp;sspn=0.201922,0.308647&amp;ie=UTF8&amp;hq=UP+Department++of+Computer+Science&amp;hnear=&amp;t=m&amp;cid=5525695897160382081&amp;ll=14.662398,121.070881&amp;spn=0.029062,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
 				</div>
 			</div>
