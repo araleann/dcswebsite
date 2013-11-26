@@ -174,7 +174,7 @@ rgba(0, 0, 0, 0.2);
 
 /* ROW */
 
-.row{margin-bottom:6em}
+/* .row{margin-bottom:6em} */
 .row:after{content:"";display:table;clear:both}
 .row .main{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:block;float:left;margin-right:3.01887%;margin-bottom:3.01887%;width:48.49057%;vertical-align:top}
 .row .main:last-child{margin-bottom:0}
@@ -301,4 +301,8 @@ section h1{
 }
 .carousel-fade .carousel-control {
   z-index: 2;
+}
+
+.landing{
+	margin-top:  20px;
 }
