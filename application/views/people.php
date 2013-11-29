@@ -129,5 +129,3 @@
 </div>
 <!-- Load Footer-->
 <?php $this->load->view('includes/footer', array('tag' => 'landing')); ?>
-
-<p> </p>
