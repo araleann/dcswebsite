@@ -97,29 +97,50 @@
 							</div>-->
 							<div class="modal-body container">
 								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-								<img class="col-md-6 pull-left img-responsive" src = "<?php echo base_url('files/people_pics').'/'.$fac->thumb_pic; ?>"></img>
-								
 								<div class="col-md-6 pull-left">
-									<h5><i class = 'icon-user'></i><?php echo $fac->position; ?></h5> 
-									<h5><i class = 'icon-bookmark'></i><?php echo $fac->lab; ?></h5>
-									<div class = 'research'>
-										<h5><i class = 'icon-pencil'></i>Research Interests</h5>
-										<span><?php echo $fac->interest; ?></span>
-										<!-- <span>Bioinformatics</span>
-										<span>Image Processing</span> -->
-									</div>
-									<div>
-										<h5><i class = 'icon-calendar'></i>Consultation Hours</h5>
-										<span><?php echo $fac->consult_hours; ?></span>
-									</div>
-									<div>
-										<h5><i class = 'icon-envelope'></i>Email</h5>
-										<span><?php echo $fac->email; ?></span>
-									</div>
-									<div>
-										<h5><i class = 'icon-globe'></i>Website</h5>
-										<span>www.imaprof.me</span>
-									</div>
+									<br />
+									<img class="img-responsive" src = "<?php echo base_url('files/people_pics').'/'.$fac->thumb_pic; ?>"></img>
+								</div>
+
+								<div class="col-md-6">
+									<h3 class="modal-title center"> <?php echo $fac->name; ?></h3>
+									
+									<?php if (isset($fac->position)) {?>
+										<h5><i class="fa fa-user"></i> <?php echo $fac->position; ?></h5> 
+									<?php } ?>
+
+									<?php if (isset($fac->lab)) {?>
+										<h5><i class="fa fa-bookmark"></i> <?php echo $fac->lab; ?></h5>
+									<?php } ?>
+									
+									<?php if (isset($fac->interest)) {?>
+										<h5><i class="fa fa-pencil"></i> Research Interests</h5>
+										<ul class="fa-ul">
+											<li><small><?php echo $fac->interest; ?></small></li>
+										</ul>
+									<?php } ?>
+
+									<?php if (isset($fac->consult_hours)) {?>
+										<h5><i class="fa fa-calendar"></i> Consultation Hours</h5>
+										<ul class="fa-ul">
+											<li><small><?php echo $fac->consult_hours; ?></small></li>
+										</ul>
+									<?php } ?>
+
+									<?php if (isset($fac->email)) {?>
+										<h5><i class="fa fa-envelope"></i> Email</h5>
+										<ul class="fa-ul">
+											<li><small><?php echo $fac->email; ?></small></li>
+										</ul>
+									<?php } ?>
+									
+									<?php if (/*isset($fac->website)*/ TRUE) {?>
+										<h5><i class="fa fa-globe"></i> Website</h5>
+										<ul class="fa-ul">
+											<li><small>www.imaprof.me</small></li>
+										</ul>
+									<?php } ?>
+
 								</div>
 							</div>
 						</div><!-- /.modal-content -->

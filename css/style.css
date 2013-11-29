@@ -184,8 +184,24 @@ rgba(0, 0, 0, 0.2);
 
 div
 {
-text-align:justify;
-text-justify:inter-word;
+	text-align:justify;
+	text-justify:inter-word;
+}
+
+/* Modal */
+
+.face-picture {
+  padding-top: 100;
+}
+
+.modal-body div
+{
+	text-align:left;
+}
+
+.modal-body h5
+{
+	font-weight: bold;
 }
 
 /* FOOTER */
