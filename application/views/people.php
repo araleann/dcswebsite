@@ -91,11 +91,12 @@
 				<div id = "<?php echo $fac->id; ?>" class = 'modal' tabindex = '-1' role = 'dialog' aria-labelledby = 'myModalLabel' aria-hidden = 'true'> 
 					<div class="modal-dialog">
 						<div class="modal-content">
-							<div class="modal-header">
+							<!--<div class="modal-header">
 								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 								<h3 class="modal-title center"><?php echo $fac->name; ?></h3>
-							</div>
+							</div>-->
 							<div class="modal-body container">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 								<img class="col-md-6 pull-left img-responsive" src = "<?php echo base_url('files/people_pics').'/'.$fac->thumb_pic; ?>"></img>
 								
 								<div class="col-md-6 pull-left">
@@ -128,3 +129,5 @@
 </div>
 <!-- Load Footer-->
 <?php $this->load->view('includes/footer', array('tag' => 'landing')); ?>
+
+<p> </p>
