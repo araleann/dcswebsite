@@ -7,6 +7,7 @@
 		<?php $this->load->view('includes/nav'); ?>
 
 	<div class="container">
+		<h2 class="center">Events</h2>
 		<div class="col-md-offset-2 col-md-8 content">
 			<?php
 				$data = array(
