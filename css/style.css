@@ -167,6 +167,7 @@ rgba(0, 0, 0, 0.2);
 
 /*6e5baa - bootstrap purple*/
 /*e89999 - light red*/
+/*f6d7d7 - lighter red*/
 /*8b1f1f - dark red*/
 /*838282 - dark grey*/
 /*eee - light grey*/
@@ -203,6 +204,64 @@ div
 {
 	font-weight: bold;
 }
+
+/* Calendar */
+
+.calendar {
+    width: 80%;
+    margin-left: auto;
+	margin-right: auto;
+	border-collapse: separate;
+	border-spacing: 20px;
+}
+
+.calendar .day_header {
+    font-weight: normal;
+    text-align: center;
+    border-bottom: thin solid;
+    border-top: thin solid;
+}
+
+.calendar td{
+    width: 14%; /* Force all cells to be about the same width regardless of content */
+    /*border:1px solid #CCC;*/
+    text-align: center;
+    vertical-align: center;
+    font-size: 18px;
+    padding: 0;
+}
+
+.calendar .calendar-day{
+    height: 50px;
+}
+
+.calendar .calendar-arrow:hover{
+    background: #f6d7d7;
+}
+
+.calendar .calendar-day:hover {
+    background: #f6d7d7;
+}
+
+/*.day_listing {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #2C2C2C;
+    padding: 5px 5px 0 0;
+}*/
+
+.calendar .today {
+    text-align: center;
+    padding-top: 12%; /* Force center the content of the cell */
+    height: 100%;
+    outline: solid #e89999;
+}
+
+.calendar a {
+    color:#8b1f1f;
+    font-weight: bold;
+} 
 
 /* FOOTER */
 
